@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discussion App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div class="container">
+        <div class="questions-pane">
+            <h2>Questions</h2>
+            <ul id="questions-list">
+                <!-- Questions will be appended here by JavaScript -->
+            </ul>
+            <button id="new-question-button">Add New Question</button>
+        </div>
+        <div class="responses-pane">
+            <h2>Responses</h2>
+            <div id="response-display">
+                <!-- Response content will be displayed here -->
+            </div>
+            <div id="new-question-form" class="hidden">
+                <h3>Add New Question</h3>
+                <input type="text" id="question-input" placeholder="Enter your question" />
+                <button id="add-question-button">Add Question</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>
